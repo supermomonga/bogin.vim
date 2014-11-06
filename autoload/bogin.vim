@@ -41,7 +41,7 @@ function! bogin#draw()
     setlocal modifiable
     silent % delete _
 
-    " TODO: I'ts ugly so create Board object and implement to_s method.
+    " TODO: It's ugly so create Board object and implement to_s method.
     silent put = '┌─────────┐'
     for row in range(1,9)
       let line = ''
